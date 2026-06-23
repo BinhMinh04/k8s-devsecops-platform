@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: semgrep/semgrep-action@v1
         with:
-          config: auto            # tự chọn ruleset theo ngôn ngữ detect được
+          config: auto
 
   # ─────────────────────────────────────────
   # GATE 3: SCA — dependency scan

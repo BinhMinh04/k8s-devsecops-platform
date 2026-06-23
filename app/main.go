@@ -23,4 +23,4 @@ func main() {
 	})
 	
 	http.ListenAndServe(":8080", nil) // nosemgrep: go.lang.security.audit.net.use-tls.use-tls
-}AWS_SECRET_ACCESS_KEY=AKIA1234567890ABCDEF
+}
