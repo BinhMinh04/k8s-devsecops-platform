@@ -1,5 +1,5 @@
 # ---- Stage 1: build ----
-FROM golang:1.23 AS builder
+FROM golang:1.26 AS builder
 WORKDIR /src
 COPY go.mod ./
 COPY main.go ./
