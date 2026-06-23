@@ -1,0 +1,9 @@
+
+*.exe
+server
+bin/
+.env
+*.key
+*.pem
+kubeconfig
+.DS_Store
