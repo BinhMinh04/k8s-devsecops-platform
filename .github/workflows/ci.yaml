@@ -68,6 +68,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+            fetch-depth: 0 
 
       # GHCR yêu cầu repository path phải lowercase.
       # github.repository = "BinhMinh04/..." (có chữ hoa) → hạ về chữ thường,
